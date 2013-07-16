@@ -118,6 +118,8 @@
 				<xs:element ref="country" minOccurs="0" />
 				<xs:element ref="country_iso3166" minOccurs="0" />
 				<xs:element ref="zip" minOccurs="0" />
+				<xs:element ref="magic" minOccurs="0" />
+				<xs:element ref="wmo" minOccurs="0" />
 				<xs:element ref="latitude" minOccurs="0" />
 				<xs:element ref="longitude" minOccurs="0" />
 				<xs:element ref="elevation" />
@@ -188,6 +190,8 @@
 	<xs:element name="country" type="xs:string" />
 	<xs:element name="country_iso3166" type="xs:string" />
 	<xs:element name="zip" type="xs:string" />
+	<xs:element name="magic" type="xs:string" />
+	<xs:element name="wmo" type="xs:string" />
 	<xs:element name="latitude" type="xs:string" />
 	<xs:element name="longitude" type="xs:string" />
 	<xs:element name="elevation" type="xs:string" />
